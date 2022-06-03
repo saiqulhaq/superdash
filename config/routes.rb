@@ -1,3 +1,3 @@
 Superdash::Engine.routes.draw do
-  root to: 'pages#root'
+  root to: "application#root"
 end
