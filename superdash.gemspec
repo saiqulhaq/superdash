@@ -22,8 +22,10 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 7.0.3"
+  spec.add_dependency "importmap-rails", ">= 1.1.0"
   spec.add_development_dependency "rspec", "~> 3.10.0"
   spec.add_development_dependency "rubocop", "~> 1.29.0"
   spec.add_development_dependency "rubocop-rspec", "~> 2.11.1"
   spec.add_development_dependency "standard", "~> 1.12.1"
+  spec.add_development_dependency "puma"
 end

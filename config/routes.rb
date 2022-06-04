@@ -1,3 +1,3 @@
 Superdash::Engine.routes.draw do
-  root to: "application#root"
+  root to: "dashboard#home"
 end
